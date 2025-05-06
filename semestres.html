@@ -1,0 +1,173 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Semestres – Cheick CONDE</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/a2d9d6f3b0.js" crossorigin="anonymous"></script>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body, html {
+      font-family: 'Poppins', sans-serif;
+      background-color: #121212;
+      color: white;
+    }
+    nav {
+      position: sticky;
+      top: 0;
+      width: 100%;
+      background: rgba(0, 0, 0, 0.85);
+      display: flex;
+      justify-content: center;
+      padding: 1rem;
+      z-index: 999;
+    }
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 2rem;
+    }
+    nav a {
+      text-decoration: none;
+      color: white;
+      font-weight: 600;
+    }
+    nav a:hover {
+      color: #00ccff;
+    }
+    header {
+      height: 50vh;
+      background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('background.jpg') center/cover no-repeat;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 3rem;
+    }
+    section {
+      padding: 4rem 2rem;
+      text-align: center;
+    }
+    h2 {
+      color: #00ccff;
+      margin-bottom: 1rem;
+    }
+    .bloc {
+      margin: 2rem auto;
+      padding: 2rem;
+      background-color: #1f1f1f;
+      border-radius: 12px;
+      max-width: 800px;
+      text-align: left;
+    }
+    .bloc ul {
+      margin-top: 1rem;
+      padding-left: 1rem;
+    }
+    .bloc ul li {
+      margin-bottom: 0.75rem;
+    }
+    .bloc a {
+      color: #00ccff;
+      font-weight: bold;
+      text-decoration: none;
+    }
+    .bloc a:hover {
+      text-decoration: underline;
+    }
+    footer {
+      background: #101010;
+      text-align: center;
+      padding: 2rem;
+      color: #ccc;
+    }
+    .footer-icons a {
+      margin: 0 10px;
+      color: #ccc;
+      font-size: 1.5rem;
+    }
+    .footer-icons a:hover {
+      color: #00ccff;
+    }
+    footer img {
+      max-height: 60px;
+      margin: 1rem 0;
+    }
+  </style>
+</head>
+<body>
+
+<nav>
+  <ul>
+    <li><a href="index.html">Accueil</a></li>
+    <li><a href="sae.html">SAÉ</a></li>
+    <li><a href="semestres.html">Semestres</a></li>
+    <li><a href="bilan.html">Bilan</a></li>
+    <li><a href="ac.html">AC</a></li>
+    <li><a href="alternance.html">Alternance</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+</nav>
+
+<header>
+  <h1>Parcours par Semestre</h1>
+</header>
+
+<section>
+  <div class="bloc">
+    <h2>Semestre 1</h2>
+    <p>Ce semestre a posé les bases scientifiques et techniques du BUT GCCD. J’ai appris à lire et produire des plans, à effectuer des relevés topographiques et à comprendre les principes de construction d’un bâtiment.</p>
+    <ul>
+      <li><strong>UE11</strong> – Bases scientifiques (Maths, Physique, Chimie)</li>
+      <li><strong>UE12</strong> – Outils numériques et topographiques</li>
+      <li><strong>UE13</strong> – Bases constructives et techniques</li>
+      <li><strong>UE14</strong> – Communication et projet personnel</li>
+    </ul>
+    <p><strong>Projets réalisés :</strong></p>
+    <ul>
+      <li><strong>SAÉ 1.01 – Études d’exécution d’un bâtiment</strong> → <a href="sae.html#sae101">voir</a><br><em>Plans de fondation et coffrage du bâtiment B (La Baule)</em></li>
+      <li><strong>SAÉ 1.02 – Projet d’ouvrage d’art</strong> → <a href="sae.html#sae102">voir</a><br><em>Étude complète d’un ouvrage hydraulique avec DAO</em></li>
+      <li><strong>SAÉ 1.03 – Modélisation d’un élément structurel</strong> → <a href="sae.html#sae103">voir</a><br><em>Calculs de charges et modélisation d’un plancher bois</em></li>
+      <li><strong>SAÉ 1.04 – Étude des réseaux techniques</strong> → <a href="sae.html#sae104">voir</a><br><em>Dimensionnement des réseaux EFS et VMC</em></li>
+      <li><strong>SAÉ 1.05 – Devis d’un ouvrage</strong> → <a href="sae.html#sae105">voir</a><br><em>Réalisation d’un DQE complet pour une maison</em></li>
+      <li><strong>SAÉ 1.06 – État des lieux d’un bâtiment existant</strong> → <a href="sae.html#sae106">voir</a><br><em>Analyse d’un local à rénover à l’IUT</em></li>
+    </ul>
+  </div>
+
+  <div class="bloc">
+    <h2>Semestre 2</h2>
+    <p>Ce semestre m’a permis de développer des compétences techniques plus avancées : conception de bâtiments, planification de travaux, calculs de structures et analyse environnementale.</p>
+    <ul>
+      <li><strong>UE21</strong> – Méthodes de conception / CAO</li>
+      <li><strong>UE22</strong> – Études techniques de projet</li>
+      <li><strong>UE23</strong> – Matériaux, structure et thermique</li>
+      <li><strong>UE24</strong> – Projet personnel et professionnel</li>
+    </ul>
+    <p><strong>Projets réalisés :</strong></p>
+    <ul>
+      <li><strong>SAÉ 2.01 – Projet d’aménagement de bâtiment</strong> → <a href="sae.html#sae201">voir</a><br><em>Aménagement d’un local artisanal brut pour un cuisiniste</em></li>
+      <li><strong>SAÉ 2.02 – Projet de voiries et réseaux divers</strong> → <a href="sae.html#sae202">voir</a><br><em>Étude complète d’un lotissement à Saint-Brévin</em></li>
+      <li><strong>SAÉ 2.03 – Relevé topographique complexe</strong> → <a href="sae.html#sae203">voir</a><br><em>Relevé pour projet ITE et implantation d’échafaudage</em></li>
+      <li><strong>SAÉ 2.04 – Calcul d’un ouvrage simple</strong> → <a href="sae.html#sae204">voir</a><br><em>Dimensionnement de poutrelles selon l’EC3</em></li>
+      <li><strong>SAÉ 2.05 – Étude de la performance thermique</strong> → <a href="sae.html#sae205">voir</a><br><em>Simulation thermique et choix d’un complexe isolant</em></li>
+      <li><strong>SAÉ 2.06 – Planification de travaux</strong> → <a href="sae.html#sae206">voir</a><br><em>Organisation complète du chantier d’un passage supérieur</em></li>
+      <li><strong>SAÉ 2.07 – Analyse environnementale</strong> → <a href="sae.html#sae207">voir</a><br><em>Analyse ACV et variantes durables d’un projet à Chappes</em></li>
+    </ul>
+  </div>
+</section>
+
+<footer>
+  <p>© 2025 Cheick CONDE – Portfolio étudiant BUT GCCD</p>
+  <img src="logo_iut.png" alt="Logo IUT Saint-Nazaire">
+  <div class="footer-icons">
+    <a href="mailto:condecheickmohamed8@gmail.com"><i class="fas fa-envelope"></i></a>
+    <a href="https://www.instagram.com/youngcheuck2" target="_blank"><i class="fab fa-instagram"></i></a>
+  </div>
+</footer>
+
+</body>
+</html>
