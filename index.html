@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Accueil – Cheick CONDE</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/a2d9d6f3b0.js" crossorigin="anonymous"></script>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body, html {
+      font-family: 'Poppins', sans-serif;
+      background-color: #121212;
+      color: white;
+    }
+    nav {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      background: rgba(0, 0, 0, 0.85);
+      display: flex;
+      justify-content: center;
+      z-index: 999;
+      padding: 1rem;
+    }
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 2rem;
+      flex-wrap: wrap;
+    }
+    nav a {
+      text-decoration: none;
+      color: white;
+      font-weight: 600;
+    }
+    nav a:hover {
+      color: #00aaff;
+    }
+    header {
+      height: 100vh;
+      background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
+                  url('background.jpg') center/cover no-repeat;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 0 2rem;
+    }
+    header h1 {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+    }
+    header p {
+      font-size: 1.2rem;
+      max-width: 800px;
+    }
+    section {
+      padding: 4rem 2rem;
+      text-align: center;
+      background: #1f1f1f;
+    }
+    section img.photo {
+      width: 200px;
+      border-radius: 50%;
+      margin-bottom: 1rem;
+      border: 3px solid #00aaff;
+    }
+    h2 {
+      color: #00aaff;
+      margin-bottom: 1rem;
+    }
+    .video iframe {
+      width: 90%;
+      max-width: 720px;
+      height: 400px;
+      margin: 1rem 0;
+      border-radius: 12px;
+    }
+    footer {
+      background: #101010;
+      text-align: center;
+      padding: 2rem;
+      color: #ccc;
+    }
+    .footer-icons a {
+      margin: 0 10px;
+      color: #ccc;
+      font-size: 1.5rem;
+    }
+    .footer-icons a:hover {
+      color: #00aaff;
+    }
+    footer img {
+      max-height: 60px;
+      margin: 1rem 0;
+    }
+  </style>
+</head>
+<body>
+
+<nav>
+  <ul>
+    <li><a href="index.html">Accueil</a></li>
+    <li><a href="sae.html">SAÉ</a></li>
+    <li><a href="semestres.html">Semestres</a></li>
+    <li><a href="bilan.html">Bilan</a></li>
+    <li><a href="ac.html">AC</a></li>
+    <li><a href="alternance.html">Alternance</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+</nav>
+
+<header>
+  <h1>Bienvenue sur mon Portfolio</h1>
+  <p>Je suis Cheick CONDÉ, étudiant en BUT1 GCCD à l'IUT de Saint-Nazaire, alternant chez GRDF.<br>
+     Ce portfolio présente mes projets, compétences, et objectifs professionnels dans le domaine du génie civil.</p>
+</header>
+
+<section id="presentation">
+  <h2>Présentation</h2>
+  <img src="photo.jpg" alt="Photo de Cheick" class="photo">
+  <p>
+    Je suis Cheick CONDÉ, étudiant en BUT1 Génie Civil – Construction Durable à l’IUT de Saint-Nazaire.<br><br>
+    Je poursuis ma formation en alternance en tant que chargé d’affaires chez GRDF, ce qui me permet de combiner les enseignements théoriques reçus à l’IUT avec une expérience professionnelle concrète sur le terrain.<br><br>
+    Ce portfolio numérique regroupe mes projets réalisés durant ma première année. Il valorise mes compétences, expériences et mon évolution dans le domaine du génie civil.
+  </p>
+</section>
+
+<section id="objectifs">
+  <h2>Objectifs professionnels</h2>
+  <p>
+    Je souhaite développer des compétences solides dans tous les domaines du génie civil, en bureau d’études et en conduite de travaux.<br><br>
+    Mon objectif est d’intégrer une école d’ingénieur ou d’être embauché chez GRDF si une opportunité se présente.
+  </p>
+</section>
+
+<section id="cv">
+  <h2>Mon CV</h2>
+  <p><a href="Cv conde.pdf" target="_blank" style="color: #00aaff; font-weight: bold;">📄 Télécharger mon CV (PDF)</a></p>
+</section>
+
+<section id="videos" class="video">
+  <h2>Vidéos</h2>
+  <h3>Présentation IUT</h3>
+  <iframe src="https://www.youtube.com/embed/fjOi6VsLWmA" allowfullscreen></iframe>
+  <h3>Présentation GRDF</h3>
+  <iframe src="https://www.youtube.com/embed/0q0rEkM7tq0" allowfullscreen></iframe>
+</section>
+
+<footer>
+  <p>© 2025 Cheick CONDE – Portfolio étudiant BUT GCCD</p>
+  <img src="logo_iut.png" alt="Logo IUT Saint-Nazaire">
+  <div class="footer-icons">
+    <a href="mailto:condecheickmohamed8@gmail.com"><i class="fas fa-envelope"></i></a>
+    <a href="https://www.instagram.com/youngcheuck2" target="_blank"><i class="fab fa-instagram"></i></a>
+  </div>
+</footer>
+
+</body>
+</html>
